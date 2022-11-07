@@ -1,0 +1,29 @@
+{
+  "name": "links-util-pack",
+  "displayName": "The Link's util extension pack.",
+  "description": "",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "GrapeCity.gc-excelviewer",
+    "mechatroner.rainbow-csv",
+    "emilast.LogFileHighlighter",
+    "dakara.transformer",
+    "anweber.httpbook",
+    "anweber.vscode-httpyac",
+    "humao.rest-client",
+    "jrebocho.vscode-random",
+    "jsynowiec.vscode-insertdatestring",
+    "moshfeu.compare-folders",
+    "Tyriar.sort-lines",
+    "zhouronghui.propertylist",
+    "ms-vsliveshare.vsliveshare",
+    "ms-vsliveshare.vsliveshare-audio",
+    "ms-vsliveshare.vsliveshare-pack"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "links-rust-pack",
+  "displayName": "The Link's rust development extension pack.",
+  "description": "",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "rust-lang.rust-analyzer",
+    "serayuzgur.crates",
+    "tamasfe.even-better-toml",
+    "vadimcn.vscode-lldb"
+  ]
+}

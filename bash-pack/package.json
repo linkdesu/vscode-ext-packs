@@ -1,0 +1,16 @@
+{
+  "name": "links-bash-pack",
+  "displayName": "The Link's bash development extension pack.",
+  "description": "",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "mads-hartmann.bash-ide-vscode",
+    "rogalmic.bash-debug"
+  ]
+}

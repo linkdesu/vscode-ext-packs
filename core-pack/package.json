@@ -1,0 +1,52 @@
+{
+  "name": "links-rust-pack",
+  "displayName": "The Link's rust development extension pack.",
+  "description": "",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "alefragnani.Bookmarks",
+    "artdiniz.quitcontrol-vscode",
+    "BeardedBear.beardedtheme",
+    "bierner.emojisense",
+    "bierner.markdown-mermaid",
+    "darkriszty.markdown-table-prettify",
+    "eamodio.gitlens",
+    "EditorConfig.EditorConfig",
+    "letmaik.git-tree-compare",
+    "mhutchie.git-graph",
+    "GitHub.copilot",
+    "GitHub.vscode-pull-request-github",
+    "Gruntfuggly.todo-tree",
+    "howardzuo.vscode-favorites",
+    "johnpapa.vscode-peacock",
+    "leizongmin.node-module-intellisense",
+    "marclipovsky.string-manipulation",
+    "metaseed.MetaJump",
+    "ms-azuretools.vscode-docker",
+    "ms-vscode-remote.remote-containers",
+    "ms-vscode-remote.remote-ssh",
+    "ms-vscode-remote.remote-ssh-edit",
+    "ms-vscode-remote.remote-wsl",
+    "ms-vscode-remote.vscode-remote-extensionpack",
+    "ms-vscode.azure-account",
+    "ms-vscode.cpptools",
+    "ms-vscode.vscode-js-profile-flame",
+    "nickdemayo.vscode-json-editor",
+    "nortakales.vs-qalc",
+    "oderwat.indent-rainbow",
+    "pnp.polacode",
+    "redhat.vscode-yaml",
+    "tamasfe.even-better-toml",
+    "vscode-icons-team.vscode-icons",
+    "xyz.local-history",
+    "yzhang.markdown-all-in-one",
+    "ZainChen.json",
+    "zhuangtongfa.material-theme"
+  ]
+}
