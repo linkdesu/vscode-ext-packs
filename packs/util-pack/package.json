@@ -1,8 +1,16 @@
 {
   "name": "links-util-pack",
-  "displayName": "The Link's util extension pack.",
-  "description": "",
+  "displayName": "Link's Handy Util Pack",
+  "description": "The Link's handy util extension pack.",
   "version": "1.0.0",
+  "author": "Link <xieaolin@gmail.com>",
+  "publisher": "linkdesu",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/linkdesu/vscode-ext-packs"
+  },
+  "icon": "logo.png",
   "engines": {
     "vscode": "^1.73.0"
   },
@@ -16,12 +24,13 @@
     "dakara.transformer",
     "anweber.httpbook",
     "anweber.vscode-httpyac",
-    "humao.rest-client",
     "jrebocho.vscode-random",
     "jsynowiec.vscode-insertdatestring",
     "moshfeu.compare-folders",
     "Tyriar.sort-lines",
     "zhouronghui.propertylist",
+    "nortakales.vs-qalc",
+    "ms-azuretools.vscode-docker",
     "ms-vsliveshare.vsliveshare",
     "ms-vsliveshare.vsliveshare-audio",
     "ms-vsliveshare.vsliveshare-pack"

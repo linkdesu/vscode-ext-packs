@@ -1,8 +1,16 @@
 {
   "name": "links-ext-pack",
-  "displayName": "links-ext-pack",
-  "description": "",
-  "version": "0.0.1",
+  "displayName": "Link's Vue Pack",
+  "description": "The Link's vue development extension pack.",
+  "version": "1.0.0",
+  "author": "Link <xieaolin@gmail.com>",
+  "publisher": "linkdesu",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/linkdesu/vscode-ext-packs"
+  },
+  "icon": "logo.png",
   "engines": {
     "vscode": "^1.73.0"
   },

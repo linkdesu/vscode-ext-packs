@@ -5,11 +5,16 @@
   "author": "Link <xieaolin@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build:bash": "vsce package",
-    "build": "echo \"Error: no test specified\" && exit 1"
+    "build:core": "cd packs/core-pack && vsce package -o ../../dist/core-pack.vsix",
+    "build:rust": "cd packs/rust-pack && vsce package -o ../../dist/rust-pack.vsix",
+    "build": "echo \"Error: no test specified\" && exit 1",
+    "install:core": "code --verbose -s --install-extension dist/core-pack.vsix",
+    "install:rust": "code --verbose -s --install-extension dist/rust-pack.vsix",
+    "clean": "shx rm dist/*.vsix"
   },
   "dependencies": {
-    "vsce": "^2.14.0",
-    "concurrently": "^7.0.0"
+    "concurrently": "^7.0.0",
+    "shx": "^0.3.4",
+    "vsce": "^2.14.0"
   }
 }

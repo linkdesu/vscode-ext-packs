@@ -1,8 +1,16 @@
 {
   "name": "links-rust-pack",
-  "displayName": "The Link's rust development extension pack.",
-  "description": "",
+  "displayName": "Link's Rust Pack",
+  "description": "The Link's rust development extension pack.",
   "version": "1.0.0",
+  "author": "Link <xieaolin@gmail.com>",
+  "publisher": "linkdesu",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/linkdesu/vscode-ext-packs"
+  },
+  "icon": "logo.png",
   "engines": {
     "vscode": "^1.73.0"
   },

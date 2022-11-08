@@ -1,16 +1,19 @@
 {
   "name": "links-core-pack",
-  "displayName": "Link's core pack",
+  "displayName": "Link's Core Pack",
   "description": "The Link's core pack for all other development packs.",
   "version": "1.0.0",
+  "author": "Link <xieaolin@gmail.com>",
+  "publisher": "linkdesu",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/linkdesu/vscode-ext-packs"
   },
+  "icon": "logo.png",
   "engines": {
     "vscode": "^1.73.0"
   },
-  "icon": "logo.png",
   "categories": [
     "Extension Packs"
   ],
@@ -18,10 +21,14 @@
     "alefragnani.Bookmarks",
     "Gruntfuggly.todo-tree",
     "howardzuo.vscode-favorites",
+    "xyz.local-history",
     "johnpapa.vscode-peacock",
     "BeardedBear.beardedtheme",
+    "zhuangtongfa.material-theme",
+    "vscode-icons-team.vscode-icons",
     "bierner.markdown-mermaid",
     "darkriszty.markdown-table-prettify",
+    "yzhang.markdown-all-in-one",
     "eamodio.gitlens",
     "letmaik.git-tree-compare",
     "mhutchie.git-graph",
@@ -32,23 +39,17 @@
     "EditorConfig.EditorConfig",
     "marclipovsky.string-manipulation",
     "metaseed.MetaJump",
-    "ms-azuretools.vscode-docker",
     "ms-vscode-remote.remote-containers",
     "ms-vscode-remote.remote-ssh",
     "ms-vscode-remote.remote-ssh-edit",
     "ms-vscode-remote.remote-wsl",
     "ms-vscode-remote.vscode-remote-extensionpack",
-    "ms-vscode.azure-account",
-    "nickdemayo.vscode-json-editor",
-    "nortakales.vs-qalc",
     "oderwat.indent-rainbow",
     "pnp.polacode",
     "redhat.vscode-yaml",
     "tamasfe.even-better-toml",
-    "vscode-icons-team.vscode-icons",
-    "xyz.local-history",
-    "yzhang.markdown-all-in-one",
-    "ZainChen.json",
-    "zhuangtongfa.material-theme"
+    "nickdemayo.vscode-json-editor",
+    "richie5um2.vscode-sort-json",
+    "ZainChen.json"
   ]
 }
