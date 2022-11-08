@@ -1,5 +1,5 @@
 {
-  "name": "links-note-pack",
+  "name": "links-rust-pack",
   "displayName": "The Link's rust development extension pack.",
   "description": "",
   "version": "1.0.0",
@@ -10,7 +10,10 @@
     "Extension Packs"
   ],
   "extensionPack": [
-    "kortina.vscode-markdown-notes",
-    "tchayen.markdown-links",
+    "rust-lang.rust-analyzer",
+    "serayuzgur.crates",
+    "tamasfe.even-better-toml",
+    "ms-vscode.cpptools",
+    "vadimcn.vscode-lldb"
   ]
 }

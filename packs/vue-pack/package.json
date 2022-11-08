@@ -1,0 +1,24 @@
+{
+  "name": "links-ext-pack",
+  "displayName": "links-ext-pack",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "ms-vscode.vscode-js-profile-flame",
+    "antfu.unocss",
+    "dbaeumer.vscode-eslint",
+    "gamunu.vscode-yarn",
+    "christian-kohler.npm-intellisense",
+    "leizongmin.node-module-intellisense",
+    "mike-co.import-sorter",
+    "octref.vetur",
+    "oouo-diogo-perdigao.docthis",
+    "pflannery.vscode-versionlens"
+  ]
+}
