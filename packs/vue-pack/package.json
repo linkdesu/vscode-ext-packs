@@ -18,6 +18,8 @@
     "Extension Packs"
   ],
   "extensionPack": [
+    "vue.volar",
+    "vue.vscode-typescript-vue-plugin",
     "ms-vscode.vscode-js-profile-flame",
     "antfu.unocss",
     "dbaeumer.vscode-eslint",
@@ -25,7 +27,6 @@
     "christian-kohler.npm-intellisense",
     "leizongmin.node-module-intellisense",
     "mike-co.import-sorter",
-    "octref.vetur",
     "oouo-diogo-perdigao.docthis",
     "pflannery.vscode-versionlens"
   ]
