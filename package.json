@@ -6,10 +6,13 @@
   "license": "MIT",
   "scripts": {
     "build:core": "cd packs/core-pack && vsce package -o ../../dist/core-pack.vsix",
+    "build:note": "cd packs/note-pack && vsce package -o ../../dist/note-pack.vsix",
+    "build:util": "cd packs/util-pack && vsce package -o ../../dist/util-pack.vsix",
+    "build:bash": "cd packs/bash-pack && vsce package -o ../../dist/bash-pack.vsix",
     "build:rust": "cd packs/rust-pack && vsce package -o ../../dist/rust-pack.vsix",
-    "build": "echo \"Error: no test specified\" && exit 1",
-    "install:core": "code --verbose -s --install-extension dist/core-pack.vsix",
-    "install:rust": "code --verbose -s --install-extension dist/rust-pack.vsix",
+    "build:vue": "cd packs/vue-pack && vsce package -o ../../dist/vue-pack.vsix",
+    "build:python": "cd packs/python-pack && vsce package -o ../../dist/python-pack.vsix",
+    "build": "concurrently npm:build:core npm:build:note npm:build:util npm:build:bash npm:build:rust npm:build:vue npm:build:python",
     "clean": "shx rm dist/*.vsix"
   },
   "dependencies": {

@@ -22,10 +22,36 @@ Enjoy youself with these packs, and feel free to fork and made your every own pa
 
 ## Usage
 
-- Generating extension files: `npm run build`
-- Install extension from files: `code -s --install-extension dist/*.vsix`
+### Generating extension files
+
+```bash
+npm run build
+```
+
+This will create VSCode extension bundles in `dist/`. All bundle files ends with `.vsix`.
+
+### Install extension from files
+
+```bash
+code --install-extension dist/core-pack.vsix
+code --install-extension dist/note-pack.vsix
+code --install-extension dist/util-pack.vsix
+code --install-extension dist/bash-pack.vsix
+code --install-extension dist/rust-pack.vsix
+code --install-extension dist/python-pack.vsix
+code --install-extension dist/vue-pack.vsix
+```
+
+> ⚠️ These commands should be executed one by one without using `npm run`.
+
 
 ## Logos
 
-All logos are not design by myself but come from one of my favoriate game named [Terraria](https://terraria.org/). And
-the images are downloaded from [terraria.wiki.gg](https://terraria.wiki.gg/wiki/Category:Item_images).
+All logos are not design by myself but come from one of my favoriate game named [Terraria](https://terraria.org/). And the images are downloaded from [terraria.wiki.gg](https://terraria.wiki.gg/wiki/Category:Item_images).
+
+
+## License
+
+[MIT](http://opensource.org/licenses/MIT)
+
+Copyright (c) 2022-present Link Xie
