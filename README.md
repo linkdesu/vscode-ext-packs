@@ -33,13 +33,13 @@ This will create VSCode extension bundles in `dist/`. All bundle files ends with
 ### Install extension from files
 
 ```bash
-code --install-extension dist/core-pack.vsix
-code --install-extension dist/note-pack.vsix
-code --install-extension dist/util-pack.vsix
-code --install-extension dist/bash-pack.vsix
-code --install-extension dist/rust-pack.vsix
-code --install-extension dist/python-pack.vsix
-code --install-extension dist/vue-pack.vsix
+code --install-extension dist/core-pack.vsix && \
+code --install-extension dist/note-pack.vsix && \
+code --install-extension dist/util-pack.vsix && \
+code --install-extension dist/bash-pack.vsix && \
+code --install-extension dist/rust-pack.vsix && \
+code --install-extension dist/python-pack.vsix && \
+code --install-extension dist/js-pack.vsix
 ```
 
 > ⚠️ These commands should be executed one by one without using `npm run`.

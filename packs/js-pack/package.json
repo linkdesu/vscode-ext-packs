@@ -1,7 +1,7 @@
 {
-  "name": "links-ext-pack",
-  "displayName": "Link's Vue Pack",
-  "description": "The Link's vue development extension pack.",
+  "name": "links-js-pack",
+  "displayName": "Link's JS Pack",
+  "description": "The Link's JS development extension pack.",
   "version": "1.0.0",
   "author": "Link <xieaolin@gmail.com>",
   "publisher": "linkdesu",
@@ -18,16 +18,20 @@
     "Extension Packs"
   ],
   "extensionPack": [
-    "vue.volar",
-    "vue.vscode-typescript-vue-plugin",
-    "ms-vscode.vscode-js-profile-flame",
     "antfu.unocss",
-    "dbaeumer.vscode-eslint",
-    "gamunu.vscode-yarn",
     "christian-kohler.npm-intellisense",
+    "christian-kohler.path-intellisense",
+    "dbaeumer.vscode-eslint",
+    "ecmel.vscode-html-css",
+    "gamunu.vscode-yarn",
     "leizongmin.node-module-intellisense",
     "mike-co.import-sorter",
+    "ms-vscode.vscode-js-profile-flame",
     "oouo-diogo-perdigao.docthis",
-    "pflannery.vscode-versionlens"
+    "pflannery.vscode-versionlens",
+    "sburg.vscode-javascript-booster",
+    "VisualStudioExptTeam.vscodeintellicode",
+    "vue.volar",
+    "vue.vscode-typescript-vue-plugin"
   ]
 }

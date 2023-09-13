@@ -18,19 +18,16 @@
     "Extension Packs"
   ],
   "extensionPack": [
-    "GrapeCity.gc-excelviewer",
-    "mechatroner.rainbow-csv",
-    "emilast.LogFileHighlighter",
-    "dakara.transformer",
     "anweber.httpbook",
     "anweber.vscode-httpyac",
+    "dakara.transformer",
+    "emilast.LogFileHighlighter",
+    "GrapeCity.gc-excelviewer",
     "jrebocho.vscode-random",
-    "jsynowiec.vscode-insertdatestring",
-    "moshfeu.compare-folders",
-    "Tyriar.sort-lines",
-    "zhouronghui.propertylist",
-    "nortakales.vs-qalc",
+    "mechatroner.rainbow-csv",
     "ms-azuretools.vscode-docker",
-    "ms-vsliveshare.vsliveshare"
+    "ms-vsliveshare.vsliveshare",
+    "nortakales.vs-qalc",
+    "zhouronghui.propertylist"
   ]
 }

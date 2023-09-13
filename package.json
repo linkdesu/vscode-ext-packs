@@ -10,9 +10,9 @@
     "build:util": "cd packs/util-pack && vsce package -o ../../dist/util-pack.vsix",
     "build:bash": "cd packs/bash-pack && vsce package -o ../../dist/bash-pack.vsix",
     "build:rust": "cd packs/rust-pack && vsce package -o ../../dist/rust-pack.vsix",
-    "build:vue": "cd packs/vue-pack && vsce package -o ../../dist/vue-pack.vsix",
+    "build:js": "cd packs/js-pack && vsce package -o ../../dist/js-pack.vsix",
     "build:python": "cd packs/python-pack && vsce package -o ../../dist/python-pack.vsix",
-    "build": "concurrently npm:build:core npm:build:note npm:build:util npm:build:bash npm:build:rust npm:build:vue npm:build:python",
+    "build": "concurrently npm:build:core npm:build:note npm:build:util npm:build:bash npm:build:rust npm:build:js npm:build:python",
     "clean": "shx rm dist/*.vsix"
   },
   "dependencies": {
